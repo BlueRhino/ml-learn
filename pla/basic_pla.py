@@ -70,7 +70,7 @@ def generate_test_dataset(must_linear_separable):
                  range(2)])
     else:
         samples = make_classification(n_samples=100, n_features=2, n_redundant=0, n_informative=1,
-                                      n_clusters_per_class=1, flip_y=-1, class_sep=1.5)
+                                      n_clusters_per_class=1, flip_y=-1, class_sep=1.2)
     return samples
 
 
